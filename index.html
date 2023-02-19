@@ -18,8 +18,8 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#about">About</a>
           <a class="nav-item nav-link" href="#work">Work</a>
+          <a class="nav-item nav-link" href="#About">About</a>
           <a class="nav-item nav-link" href="#skills">skills</a>
           <a class="nav-item nav-link disabled" href="#contact">Contact</a>
         </div>
@@ -33,7 +33,6 @@
         <p class="lead">*** Front End webdevelopement training in progress ***</p>
         <hr class="my-4">
         <p>This page tells you about the beginning projects of my journey into front end web developement.</p>
-        <img src="./assets/images/profilbillede.jpg" alt="profile image"/>
       </div>
     </hero>
     
@@ -41,9 +40,10 @@
 
         <!--grid for work-->
       <div class="container" id="work">
+        <h1 class="display-4">Projects</h1>
         <!--cards-->
         <div class="row">
-          <div class="card col-lg-12" style="width: 18rem;">
+          <div class="card col-sm-12" style="width: 18rem;">
             <a href="https://github.com/sofie-ventzel/">
               <img class="card-img-top" src="./assets/images/20220928_112726.jpg" alt="Metal spiral staircase in tower ruin">
             </a>
@@ -90,11 +90,13 @@
             </div>
         </div>
       </div>  
-    
+   
+  <!--mini grid for about section-->
+  <div class="container row">
     <!--Skills, the ones expected to learn from bootcamp-->
-    <section id="skills">
+    <section class="col-sm-4" id="skills">
       <div class="jumbotron">
-        <h1 class="display-4">Skills</h1>
+        <h1 class="display-3">Skills</h1>
         <p>HTML</p>
         <p>CSS</p>
         <p>Bootstrap</p>
@@ -104,8 +106,26 @@
       </div>
     </section>
 
-    <!--footer section-->
-    <footer>
+    <!--About section with info-->
+    <section class="col-sm-6" id="about">
+      <div class="jumbotron">
+        <h1 class="display-4">About</h1>
+        <p>A bit about me</p>
+        <p>I am currently studying front end web developement. Born and educated in Denmark, I have relocated to the U.K. and am doing my best to learn a new field.</p>
+        <p>I am a creative individual, who is forever learning new ways to bring to life one idea or another.</p>
+        <h2 class="display-4" id="contact">Contact</h2>
+        <p>Contact me at sofieventzel@hotmail.com</p>
+        <p>or check out</p><a href="https://github.com/sofie-ventzel/">my Github page</a>
+      </div>
+    </section>
+    <!--profile image-->
+    <div class="col-sm-3">
+      <img src="./assets/images/profilbillede.jpg" class="img-thumbnail" alt="profile image"/>
+    </div>
+  </div>
+    
+     <!--footer section-->
+     <footer>
       <nav class="navbar fixed-bottom navbar-dark bg-dark">
         <a class="navbar-brand" href="#home">Sofies Portfolio</a>
         <form class="form-inline" >
@@ -115,20 +135,6 @@
         </form>
       </nav>
     </footer>
-
-    <!--About section with info-->
-    <section id="about">
-      <div class="jumbotron">
-        <h1 class="display-4">About</h1>
-        <p>A bit about me</p>
-        <p>I am currently studying front end web developement. Born and educated in Denmark, I have relocated to the U.K. and am doing my best to learn a new field.</p>
-        <p>I am a creative individual, who is forever learning new ways to bring to life one idea or another.</p>
-        <h2 class="display-5" id="contact">Contact</h2>
-        <p>Contact me at sofieventzel@hotmail.com</p>
-        <p>or check out</p><a href="https://github.com/sofie-ventzel/">my Github page</a>
-      </div>
-    </section>
-
 
     <!--bootstrap sources for javascript-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
