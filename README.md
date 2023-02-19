@@ -8,7 +8,7 @@ https://sofie-ventzel.github.io/bootstrap-portfolio/
 
 ## Usage
 The page have a navbar, with links. Each link takes you to the relevant section of the page. Should you wish to go back to the top, just click on the button in the footer in the buttom right corner.
-```md ![screenshot](assets/images/screenshot%20bp.PNG)```
+md ![screenshot](assets/images/screenshot%20bp.PNG)
 
 When an image is clicked in the work section, it takes you to my github page. The idea is to add particular links later.
 
